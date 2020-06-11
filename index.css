@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+#canvas {
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+#palette {
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
